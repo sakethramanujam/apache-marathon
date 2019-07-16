@@ -1,0 +1,46 @@
+This is ApacheBench, Version 2.3 <$Revision: 1757674 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking build-run-go-multiple-uaa5i34bwq-uc.a.run.app (be patient)
+
+
+Server Software:        Google
+Server Hostname:        build-run-go-multiple-uaa5i34bwq-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        build-run-go-multiple-uaa5i34bwq-uc.a.run.app
+
+Document Path:          /fib/30
+Document Length:        7 bytes
+
+Concurrency Level:      512
+Time taken for tests:   624.541 seconds
+Complete requests:      25600
+Failed requests:        67
+   (Connect: 0, Receive: 0, Length: 67, Exceptions: 0)
+Non-2xx responses:      67
+Total transferred:      5230784 bytes
+HTML transferred:       180937 bytes
+Requests per second:    40.99 [#/sec] (mean)
+Time per request:       12490.824 [ms] (mean)
+Time per request:       24.396 [ms] (mean, across all concurrent requests)
+Transfer rate:          8.18 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        2   14  68.2      3    1034
+Processing:   672 9993 24712.6   1665  300302
+Waiting:      672 9992 24712.6   1665  300297
+Total:        675 10006 24713.6   1676  300305
+
+Percentage of the requests served within a certain time (ms)
+  50%   1676
+  66%   2902
+  75%   5641
+  80%   8902
+  90%  29110
+  95%  53672
+  98%  86754
+  99%  105562
+ 100%  300305 (longest request)
